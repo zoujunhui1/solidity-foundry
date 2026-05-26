@@ -1,0 +1,47 @@
+# Foundry
+cache/
+out/
+lib/
+node_modules/
+foundry.toml
+foundry.lock
+
+# Broadcast (keep deploy scripts)
+broadcast/
+!broadcast/*.s.sol
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
+*.log
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.bak
+*.tmp
+*.temp
+*.tgz
+*.zip
+
+# Coverage
+coverage/
+lcov.info
+
+# Misc
+*.pid
+*.seed
+*.pid.lock
