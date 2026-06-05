@@ -1,1 +1,14 @@
 .vscode/
+
+# Foundry
+**/cache/
+**/out/
+**/broadcast/
+
+# Environment variables (WITH PRIVATE KEYS - NEVER COMMIT!)
+**/.env
+
+# Foundry dependencies (installed via forge install)
+**/lib/
+
+
